@@ -3,7 +3,7 @@ import numpy as np
 
 bdata = pd.read_csv('/home/galen/Downloads/BOSS_Data_1316.csv')
 
-message_type = pd.DataFrame(np.nan, index=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, "Comp"], columns=['BOSS', 'Buyers', 'Douglas', 'Fisher', 'Western', 'Blizzard', 'Henderson', 'Hiniker', 'Kage', 'Monroe', 'Meyer', 'SnowWolf', 'Sno-Way', 'Other'])
+message_type = pd.DataFrame(np.nan, index=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19  "Comp"], columns=['BOSS', 'Buyers', 'Douglas', 'Fisher', 'Western', 'Blizzard', 'Henderson', 'Hiniker', 'Kage', 'Monroe', 'Meyer', 'SnowWolf', 'Sno-Way', 'Other'])
 cols = {0:40, 1:41, 2:42, 3:43, 4:51, 5:39, 6:44, 7:45, 8:46, 9:47, 10:48, 11:49, 12:50, 13:54}
 
 
