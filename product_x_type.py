@@ -26,6 +26,6 @@ for i in range(14):
 
 for i in range(1, 29):
 	for j in range(14):
-		product_score.ix[i, j] = product_type.ix[i, j] * comps[j]
+		product_score.ix[i, j] = product_type.ix[i, j] / comps[j]
 
 product_score.to_csv('/home/galen/product_x_ownerType.csv')
